@@ -1,0 +1,17 @@
+.about {
+    padding: 100px 4.4%;
+}
+
+.aboutCont {
+    display: flex;
+    gap: 200px;
+    align-items: baseline;
+}
+
+.aboutRight {
+    font-size: 50px;
+    color: #d8d8d8;
+    max-width: 800px;
+    font-weight: 300;
+    line-height: 60px;
+}

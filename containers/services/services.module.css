@@ -1,0 +1,91 @@
+.services {
+    padding: 100px 4.4%;
+}
+
+.firstSection {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.firstContent {
+    font-size: 60px;
+    color: #d8d8d8;
+    max-width: 800px;
+    font-weight: 300;
+    line-height: 65px;
+}
+
+.secondSection {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+}
+
+.secondContent {
+    width: 600px;
+    font-size: 40px;
+}
+
+.process {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.process:not(:first-child) {
+    margin-top: 30px;
+}
+
+.processName {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #d8d8d8;
+}
+
+.processName p:last-child {
+    color: #636363;
+}
+
+.processUnderline {
+    background-color: #636363;
+    width: 100%;
+    height: 2px;
+}
+
+.thirdSection {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+}
+
+.thirdContent {
+    font-size: 50px;
+    color: #d8d8d8;
+    max-width: 650px;
+}
+
+.techCont {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+}
+
+.tech {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tech:first-child {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.tech p:not(:first-child) {
+    color: #d8d8d8;
+}
